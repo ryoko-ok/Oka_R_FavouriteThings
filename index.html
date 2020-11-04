@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourit Things!</title>
+
+    <!-- linking with css -->
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="hidden">My Favourit Things</h1>
+
+        <!-- this is an HTML component -->
+
+        <div class="box"></div>
+
+    </main>
+    
+    <footer>this is a simple footer</footer>
+
+
+    <!-- template files here (these don't render - the contents are reusable and get cloned at runtime) -->
+    <template id="user-template">
+        <div class="user">
+            <h1 class="hidden"></h1>
+            <img src="" alt="prof img">
+            <h2 class="user-name"></h2>
+            <p class="user-nickname"></p>
+            <p class="user-role"></p>
+        </div>
+    </template>
+    <!-- end templates -->
+    
+    <!-- linking with javascript -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
