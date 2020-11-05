@@ -1,1 +1,57 @@
-nav{margin:0}nav .nav-item{display:inline-block;margin:0 10px;background-color:#fc7fb2}nav .nav-item a{cursor:pointer;text-decoration:none;color:#45454d}nav .nav-item a:hover{color:#ffd5d5}body{font:"arial","helvetica",sans-serif;font-size:16px;background-color:#fff1e9;margin:0;border:0}.box{width:30px;height:30px;background-color:#ffd5d5}.box2{width:30px;height:30px}footer{position:fixed;bottom:0;background-color:#45454d;width:100%;text-align:center;color:#fff}/*# sourceMappingURL=master.css.map */
+nav {
+  margin: 0;
+}
+nav .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #fc7fb2;
+}
+nav .nav-item a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #45454d;
+}
+nav .nav-item a:hover {
+  color: #ffd5d5;
+}
+
+body {
+  font: "arial", "helvetica", sans-serif;
+  font-size: 16px;
+  background-color: #fff1e9;
+  margin: 0;
+  border: 0;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: #ffd5d5;
+}
+
+.box2 {
+  width: 30px;
+  height: 30px;
+}
+
+.favourite-section {
+  display: flex;
+}
+
+.favourite {
+  flex: 1;
+}
+.favourite .favourite-name, .favourite .favourite-type, .favourite .favourite-history, .favourite .favourite-reason {
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #45454d;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=master.css.map */

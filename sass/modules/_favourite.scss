@@ -1,0 +1,10 @@
+.favourite-section {
+    display: flex;
+}
+
+.favourite { 
+    flex: 1;
+
+    .favourite-name, .favourite-type, .favourite-history, .favourite-reason { margin: 0; }
+
+}
